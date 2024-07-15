@@ -1,7 +1,11 @@
 # University-Management-System (UMS)
 
-Overview
+Overview:
+
+
 The UMS is designed to streamline the operations of a university by managing user details, courses, and administrative processes through a unified platform. This system will support various functionalities to add, modify, retrieve, and manage user data across different departments. This system utilizes core object-oriented principles such as inheritance, encapsulation, polymorphism, and the use of collections like ArrayList and HashMap to efficiently manage data and operations.
+
+
 Main Functionalities:
 1.	User Login and Authentication: Users can log in with their credentials to access different functionalities based on their role (Student, Professor, Admin).
 2.	Manage User Details: Add new users, update existing user information, and remove users from the system.
@@ -14,6 +18,8 @@ Main Functionalities:
 
 
 Use Cases:
+
+
 1.	Adding a User:
 •	Actor: Admin
 •	Precondition: Admin is logged in.
@@ -51,7 +57,9 @@ Technology and Data:
 •	Data Structures: Lists for storing user data, maps for credentials, and enums for roles and departments.
 •	User Interface: Console-based with text inputs for simplicity and ease of testing.
 
-Design Decisions
+Design Decisions:
+
+
 1. Use of Enumerations (enum):
 •	Purpose: To ensure the integrity and consistency of user types (UserType) and departments (Department) throughout the application.
 •	Benefits: Reduces errors by limiting the options to predefined constants, thereby simplifying the management of user roles and department affiliations.
@@ -74,7 +82,9 @@ Functional Specifications
 •	User Actions: Differentiates actions based on user type, such as viewing details, managing students, and handling administrative tasks.
 •	Dynamic User Interaction: Users can add, modify, or delete information dynamically, enhancing the flexibility of the system.
 
-Challenges and Solutions
+Challenges and Solutions:
+
+
 1. Handling User Input:
 •	Challenge: Managing user input errors and ensuring smooth flow within the system.
 •	Solution: Implemented comprehensive error checking and used scanner.nextLine() after nextInt() to capture newline characters, preventing input mismatches.
